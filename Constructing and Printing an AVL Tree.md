@@ -28,20 +28,24 @@ To write a Python program to construct an **AVL tree** and print the nodes of it
 ENTER YOUR CODE HERE
 from TreeAVL.AVL import AVL
 
+
+
 def getDictTree(self):
  return self.dict_tree
 
 def Construct_AVL(L):
   tree = AVL(L)
-  print(getDictTree(tree))
+  print("AVL Tree Before Balancing\n",getDictTree(tree))
+  tree.BalanceTree()
+  print("AVL Tree After Balancing\n",getDictTree(tree))
 
-L=[10, 5, 15, 7, 18, 9]
 ```
 
 ## OUTPUT
 ```
 ```
-![image](https://github.com/user-attachments/assets/0b5f9c54-6c7a-4dbe-96f9-6da4342b4e4d)
+![image](https://github.com/user-attachments/assets/df804e37-6896-4561-b226-60c8f1e12edc)
+
 
 
 ## RESULT
